@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href=".//style/bootstrap.min.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="align-items-center"></div>
+
+    <div class="container d-flex gap-3 flex-column align-items-flex-start">
+      <table class="table table-dark table-bordered mt-5">
+        <thead>
+          <tr>
+            <th>Number</th>
+            <th>Name</th>
+            <th>praice</th>
+            <th>Qia</th>
+            <th>Total</th>
+            <th>Optins</th>
+          </tr>
+        </thead>
+
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <div class="container d-flex">
+      <div
+        class="form d-flex gap-3 flex-column align-items-flex-start col-4 m-auto shadow p-3 mt-5"
+      >
+        <p id="Complete">
+          Complete all fields to add the desired phone number!
+        </p>
+
+        <input
+          id="phoneName"
+          placeholder=" Name Phone ?"
+          class="form-control"
+          type="text"
+        />
+
+        <input
+          id="phonePrice"
+          placeholder=" price Phone ? "
+          class="form-control"
+          type="number"
+        />
+
+        <input
+          id="phoneQia"
+          placeholder=" qai phons ?"
+          class="form-control"
+          type="number"
+        />
+        <button class="btn btn-success" onclick="addPhones()">
+          add new phone
+        </button>
+      </div>
+      <div
+        class="form d-flex gap-3 flex-column align-items-flex-start col-4 m-auto shadow p-3 mt-5"
+      >
+        <p id="Complete">
+          Complete all fields to add the desired phone number!
+        </p>
+
+        <input
+          id="EdetPhoneindex"
+          placeholder="Pelese Enter index phone ?"
+          class="form-control"
+          type="text"
+        />
+
+        <input
+          id="EdetPhoneName"
+          placeholder="Pelese Enter New Name  ?"
+          class="form-control"
+          type="text"
+        />
+
+        <input
+          id="EdetPhonePrice"
+          placeholder="Pelese Enter New  price  ? "
+          class="form-control"
+          type="number"
+        />
+
+        <input
+          id="EdetPhoneQia"
+          placeholder="Pelese Enter New qai ?"
+          class="form-control"
+          type="number"
+        />
+        <button class="btn btn-warning" onclick="EdetPhone() ">
+          Edet Phone
+        </button>
+      </div>
+    </div>
+    <script src="./Js/script.js"></script>
+  </body>
+</html>
